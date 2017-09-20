@@ -1,0 +1,41 @@
+90,80,#66CCCC,h,no,1er
+90,170,#66CCCC,h,no,
+90,260,#66CCCC,h,no,
+80,90,#66CCCC,v,no,
+170,90,#66CCCC,v,no,
+80,180,#66CCCC,v,no,
+170,180,#66CCCC,v,no,
+350,80,#66CCCC,h,no,2eme
+350,170,#66CCCC,h,no,
+350,260,#66CCCC,h,no,
+340,90,#66CCCC,v,no,
+430,90,#66CCCC,v,no,
+340,180,#66CCCC,v,no,
+430,180,#66CCCC,v,no,
+610,80,#66CCCC,h,no,3eme
+610,170,#66CCCC,h,no,
+610,260,#66CCCC,h,no,
+600,90,#66CCCC,v,no,
+690,90,#66CCCC,v,no,
+600,180,#66CCCC,v,no,
+690,180,#66CCCC,v,no,
+255,135,#66CCCC,v,no,signe +
+220,170,#66CCCC,h,no,
+220,170,yellow,h,yes,signe +
+480,150,yellow,h,no,signe =
+480,190,yellow,h,no,
+90,80,yellow,h,yes,le 3
+90,170,yellow,h,yes,
+90,260,yellow,h,yes,
+170,90,yellow,v,yes,
+170,180,yellow,v,yes,
+350,80,yellow,h,yes,le 7
+430,90,yellow,v,yes,
+430,180,yellow,v,yes,
+610,80,yellow,h,yes,le 8
+610,170,yellow,h,yes,
+610,260,yellow,h,yes,
+600,90,yellow,v,yes,
+690,90,yellow,v,yes,
+600,180,yellow,v,yes,
+690,180,yellow,v,yes,
