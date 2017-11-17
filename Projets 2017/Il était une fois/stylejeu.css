@@ -1,0 +1,443 @@
+/* Responsive web design pour portables */
+@media only screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+    .boutoninscr, .boutonconn {
+       width: 100%;
+    }
+}
+
+/* Responsive web design pour tablettes */
+@media only screen and (max-width: 768px) {
+    #imageAffiche {
+        max-width: 95%;
+    }
+
+    p {
+        max-width: 90%;
+    }
+
+    #texteAffiche {
+        max-width: 100%;
+    }
+}
+
+#license {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    }
+
+#loader {
+    display: block;
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 16px solid rgb(230, 230, 230); 
+    border-top: 16px solid rgb(40, 40, 60); 
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+body {margin: 0px;
+    -webkit-text-size-adjust: none;
+    }
+
+#main {
+    position: relative;
+    text-align: center;
+    }
+
+header {
+    background-color: rgb(30, 30, 50);
+    height: 53px;
+    display: table;
+    width: 100%;
+    text-align: center;
+    }
+
+#hamburguer {
+    position: absolute;
+    left: 0px;
+    border-style: none;
+    margin-left: 30px;
+    padding: 9px;
+    cursor: pointer;
+    background-color: rgb(30, 30, 50);
+    color: white;
+    font-size: 150%;
+    }
+
+#menu {
+    height: 100%;
+    width: 0;
+    background-color: rgb(40, 40, 70);
+    overflow-x: 0;
+    position: fixed;
+    z-index: 1;
+    transition: 0.5s;
+    }
+
+#menu a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 25px;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 8px 8px 8px 20px;
+    transition: 0.3s;
+    margin-top: 25px;
+    margin-left: 5px;
+    }
+
+#deconnexion {
+    float: right;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 6px;
+    margin: 8px 30px;
+    cursor: pointer;
+    background-color: rgb(30, 30, 50);
+    color: white;
+    font-size: 100%;
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    }
+
+
+.index {
+    display: none;
+    white-space: nowrap;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    }
+
+#titreindex {
+    transform: translate(-50%, -250px);
+    font-family: 'Astloch', cursive;
+    font-size: 450%;
+    }
+
+.bouton {    
+    padding: 5px 30px;
+    color: black;
+    background-color: rgb(230, 230, 230);
+    border-radius: 40px;
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 15px auto;
+    border: none;
+    }
+
+.bouton:hover {
+	background-color: rgb(30, 30, 50);
+    color: white;
+    cursor: pointer;
+    }
+
+#jouerindex {
+    transform: translate(-50%, -30px);
+    font-size: 300%;
+    }
+
+#presentationindex {
+    transform: translate(-50%, 80px);
+    font-size: 150%;
+    }
+
+.fin {
+    display: none;
+    }
+
+iframe {
+    margin-bottom: 30px;
+    }
+
+#horloge {
+    display: none;
+    font-family: 'Vollkorn', serif;
+    font-size: 350%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    }
+
+h1 {font-family: 'Astloch', cursive;
+    color: white;
+    margin: auto;
+    font-size: 210%;
+    vertical-align: middle;
+    display: table-cell;
+    }
+
+h2 {
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-top: 50px;
+    font-size: 200%;
+    font-weight: 600;
+    }
+
+h3 {
+    font-family: 'Nunito Sans', sans-serif;
+    margin-top: 20px;
+    font-size: 150%;
+    font-weight: 400;
+    }
+    
+label {
+	margin : auto;
+	width: 700px;
+    font-size: 100%;
+    font-family: 'Nunito Sans', sans-serif;
+	}
+
+.conteneur {
+    max-width: 800px;
+    margin: 40px auto;
+    border: solid;
+    border-color: rgb(30, 30, 50);
+    border-radius: 20px;
+    padding: 15px;
+    display: none;
+    }
+
+.contenu {
+    float: left;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: blue;
+    }
+
+.premiereOption {
+    background-color: red;
+    border-radius: 10px 0px 0px 10px;
+    }
+
+.derniereOption {
+    background-color: purple;
+    border-radius: 0px 10px 10px 0px;
+    }
+
+#imagefleurs {
+    display: none;
+    margin: auto;
+    max-width: 100%;
+    max-height: 700px;
+    }
+
+#imageAffiche {
+    display: none;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 500px;
+    }
+
+#texteAffiche {
+    display: none;
+    margin: auto;
+    width: 700px;
+    font-size: 100%;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    text-align: left;
+    }
+
+p  {text-indent: 50px;
+    margin: auto;
+    width: 700px;
+    font-size: 100%;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    }
+
+.aligneGauche {
+    text-align: right;
+    }
+
+#instructions {
+    width: 490px;
+    }
+
+.stat {
+    text-indent: 0px;
+    display: none;
+    margin-top: 10px;
+    }
+
+#etoile {
+    text-align: center;
+    text-indent: 0px;
+    }
+
+#morale {
+    text-align: center;
+    text-indent: 0px;
+    font-style: italic;
+    }
+
+ul {margin: 10px;
+    padding: 0px;
+    }
+
+li {border-style: none;
+    border-width: thin;
+    list-style-type: none;
+    margin: 10px;
+    padding-left: 10px; 
+    padding-right: 10px;
+    background-color: lightgrey;
+    border-radius: 10px;
+    }
+
+.boutonProchain {
+    display: inline;
+    position: relative;
+    right: -85%;
+    }
+
+li:hover {
+	background-color: rgb(30, 30, 50);
+    color: white;
+    cursor: pointer;
+    }
+
+canvas {
+    display: block;
+    margin: auto;
+    border:1px solid #d3d3d3;
+    background-color: white;
+    }
+    
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 7px 7px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+	border-radius: 10px;
+    box-sizing: border-box;
+}
+
+select {
+    width: 100%;
+    padding: 7px 7px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+	border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 5px;
+	margin: auto;
+    width: 700px;
+    font-size: 80%;
+    font-family: 'Nunito Sans', sans-serif;
+	border: 1px solid gray;
+	border-radius: 10px;
+}
+
+.boutoninscr,.boutonlogin {
+    float: left;
+    width: 100%;
+	border: none;
+    cursor: pointer;
+	border-style: none;
+    border-width: thin;
+    list-style-type: none;
+    margin: 10px 0px;
+    background-color: lightgrey;
+    border-radius: 10px;
+}
+
+.bouton_oubli {
+    float: middle;
+    width: auto;
+	border: none;
+    cursor: pointer;
+	border-style: none;
+    border-width: thin;
+    list-style-type: none;
+    margin: 10px 0px;
+    background-color: lightgrey;
+    border-radius: 10px;
+}
+
+.boutoninscr:hover,.boutonlogin:hover, .bouton_oubli:hover {
+	background-color: rgb(30, 30, 50);
+    color: white;
+    cursor: pointer;
+	}
+	
+div.galerie{
+	padding: 5px;
+	margin: auto;
+	width: 780px;
+	height: auto;
+	font-size: 80%;
+	font-family: 'Nunito Sans', sans-serif;
+}
+	
+div.dessin{
+	width: 250px;
+	float: left;
+	border: none;
+	cursor: pointer;
+	border-style: none;
+	border-width: thin;
+	margin: 10px 5px;
+	background-color: lightgrey;
+	border-radius: 5px;
+}
+	
+div.dessin:hover{
+	background-color: rgb(30, 30, 50);	
+	color: white;
+}
+	
+div.dessin img{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	border-radius: 5px;
+}
+	
+div.desc{
+	padding: 15px;
+	text-align: center;
+}
+
+	.Image {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.7s;
+	opacity: 0.7;
+}
+
+.Image:hover {opacity: 1;}
