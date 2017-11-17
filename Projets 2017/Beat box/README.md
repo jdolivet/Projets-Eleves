@@ -4,4 +4,4 @@ Projet réalisé par :
 
   Ulysse d'Haussy
   
-Remarque : utilise les bibliothèques pygame et pyaudio (pour l'enregistrement).
+Remarque : utilise les bibliothèques pygame, wave et pyaudio.
