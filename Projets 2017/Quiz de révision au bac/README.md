@@ -4,4 +4,4 @@ Projet réalisé par :
 	
 	Isabela Castro
 	
-Remarque : utilise la bibliothèque pandas (avec des fichiers Excel)
+Remarque : utilise la bibliothèque pandas (avec des fichiers Excel : attention à la bibliothèque xlrd utilisé par pandas)
