@@ -1,10 +1,10 @@
 Projet réalisé par :
 
-	Arthur Leboiteux
+	Mark Mouawad
 	
-	Margot Pontais
+	David Torres
 	
-	Nicolas Souza
+	Gabriel Inoue Brossens
 	
 	
 Remarque : utilise les bibliothèques pygame et pytmx
