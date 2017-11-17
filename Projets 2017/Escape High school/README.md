@@ -4,7 +4,7 @@ Projet réalisé par :
 	
 	David Torres
 	
-	Gabriel Inoue Brossens
+	Gabriel Brossens
 	
 	
 Remarque : utilise les bibliothèques pygame et pytmx
