@@ -4,6 +4,4 @@ Projet réalisé par :
 	
 	Coraline Mori
 
-Remarque : le projet est accessible à cette adresse :
-
-http://boisdormant.servegame.com/
+Remarque : le projet est accessible à l'adresse http://boisdormant.servegame.com/
