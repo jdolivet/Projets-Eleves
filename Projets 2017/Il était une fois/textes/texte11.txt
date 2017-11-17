@@ -1,0 +1,3 @@
+<p>C'est ainsi que pendant seize années nul ne sut ce qu'était devenue la Princesse. Dans la modeste maison d'un bûcheron, en pleine forêt, la Fée des Lilas avait vécu en simple mortelle, élevant l'enfant comme la sienne. Tous les dons que lui avaient donnés les Fées s'épanouissaient chez la jeune fille. Elle était si belle, si vertueuse, si gentille et si raisonnable que tous ceux qui la voyaient l'aimaient.  Le jour de sa seixième année étant venu, la Fée des Lilas mena la jeune fille au Château pour qu'elle connût ses véritables parents. Elle s'y promena partout, visitant les salles et les chambres à sa fantaisie. Finalement, elle entra dans une vieille tour.</p> 
+<ul><li class = "boutonProchain" onclick = "ModifieEtat('13', '8');"> Continuer </li>
+</ul>

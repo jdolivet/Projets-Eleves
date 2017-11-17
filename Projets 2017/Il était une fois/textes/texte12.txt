@@ -1,0 +1,4 @@
+<p>Les années passèrent et tous les dons que lui avaient donnés les Fées s'épanouissaient chez la Princesse. Le Prince Charmant, qui lui était destiné en mariage, habitait le Royaume voisin. Les deux enfants grandirent ensemble dans le faste et l'élégance du Palais.</p> 
+<p>Le jour de sa seixième année, la jeune fille avait rendez-vouz avec le Prince Charmant, mais le Roi et la Reine l'empêchèrent de quitter le Château afin de la protéger de la malédiction, qu'elle ignorait. Contrariée, la Princesse alla chercher la solitude dans une vieille tour. Là, une vieille femme filant son lin avec application était assise dans une petite chambre. La Princesse s'empara du fuseau et voulut filer à son tour. À peine l'eut-elle touché que le mauvais sort s'accompli. </p>
+<ul><li class = "boutonProchain" onclick = "ModifieEtat('14', 'A');"> Continuer </li>
+</ul>

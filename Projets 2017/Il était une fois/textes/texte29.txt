@@ -1,0 +1,4 @@
+<p>Les longues parties de chasse du monarque inspirèrent des soupçons à la Reine sa femme, qui finit par découvrir la vérité. Elle ordonna donc d’aller dire à la Belle au Bois Dormant de la part du Roi qu’il désirait voir ses enfants : la Princesse fut enchantée de les envoyer. Ce cœur de Médée commanda alors au Cuisinier de les égorger et de les accommoder à diverses sauces pour les faire manger à son pauvre mari.</p>
+<ul><li onclick = "ModifieEtat('30', 'I'); EnvoieChoix('C9O1');">Le Cuisinier eut pitié des enfants et décida de tromper la Reine. </li>
+    <li onclick = "ModifieEtat('33', 'I'); EnvoieChoix('C9O2');">Il s'exécuta aussitôt. </li>
+</ul>

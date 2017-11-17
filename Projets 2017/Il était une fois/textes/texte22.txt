@@ -1,0 +1,4 @@
+<p>Le Roi fit mettre la Princesse dans le plus bel appartement du Palais, sur un lit en broderie d'or et d'argent et ordonna qu'on la laissât dormir en repos, jusqu'à ce que son heure de se réveiller fût venue. La Fée des Lilas était dans le Royaume de Mataquin, à douze mille lieues de là, lorsque l'accident arriva à la Princesse; mais elle en fut avertie en un instant par un petit Nain, qui avait des bottes de sept lieues. On la vit arriver au bout d'une heure. Comme elle était grandement prévoyante, la Fée</p>
+<ul><li onclick = "ModifieEtat('23', 'C'); EnvoieChoix('C7O1');">pensa que quand la Princesse viendrait à se réveiller, elle serait bien embarrassée toute seule dans ce vieux Château et décida d'y remédier. </li>
+    <li onclick = "ModifieEtat('24', 'A'); EnvoieChoix('C7O2');">veilla à ce que la Princesse, pendant qu'elle dormirait, n'eût rien à craindre des Curieux. </li>
+</ul>

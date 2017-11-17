@@ -1,0 +1,5 @@
+<p>Mais le ressentiment de la Reine ne fut pas entièrement assouvi. Elle fit appeler la Princesse. Quand celle-ci fut arrivée, la reine lui montra une face de Néron et, de sa langue de vipère, lui dit</p>
+<p>—Tu es donc cette bonne pièce, cette mauvaise herbe qui possède mon mari !</p>
+<p>Sur ces paroles, la Princesse essaya de s’excuser. Ce n’était pas sa faute : le Roi avait pris possession de son territoire pendant qu’elle dormait. Mais la reine ne voulut entendre à rien : elle fit allumer, dans la cour de son palais, un grand bûcher, et ordonna qu’on y jetât l’infortunée. </p>
+<ul><li class = "boutonProchain" onclick = "ModifieEtat('32', 'K'); EnvoieChoix('Fin3');"> Continuer </li>
+</ul>

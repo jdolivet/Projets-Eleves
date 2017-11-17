@@ -1,0 +1,8 @@
+﻿<p>Voyant que son plan réussit, la Fée Carabosse, afin d'empêcher quiconque de venir troubler  le sommeil de la Princesse, jette un sort sur le Palais :</p> 
+<p>— Qu'une forêt de ronces soit désormais son tombeau,</p>
+<p>Qu'un orage se déchaîne et qu'il gronde là-haut.</p>
+<p>Va, cours, et porte, par-delà l'horizon,</p>
+<p>Au Château et aux alentours cette malédiction.</p>
+<p>C'était sans compter sur le Prince Charmant, qui, malgré les épines et les ronces, va tenter de rejoindre sa fiancée en haut de la tour : un Prince jeune et amoureux est toujours vaillant. </p>
+<ul><li class = "boutonProchain" onclick = "Labyrinthe(1);"> Continuer </li>
+</ul>

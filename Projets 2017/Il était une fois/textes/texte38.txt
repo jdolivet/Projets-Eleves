@@ -1,0 +1,3 @@
+<p>À la mort du Roi, le Prince Chéri alla en grande cérémonie quérir la Reine sa femme dans son Château. On lui fit une entrée magnifique dans la Ville Capitale et ils furent couronnés aussitôt. Ils eurent deux enfants, dont le premier, qui fut une fille, fut nommée l'Aurore, et le second un fils, qu'on nomma le Jour, parce qu'il paraissait encore plus beau que sa soeur. Or, la mère du Roi Chéri était de race Ogresse, et son père ne l'avait épousée qu'à cause de ses grands biens; on disait même tout bas à la Cour qu'en voyant passer de petits enfants, elle avait toutes les peines du monde à se retenir de se jeter sur eux. </p>
+<ul><li class = "boutonProchain" onclick = "ModifieEtat('39', 'P');"> Continuer </li>
+</ul>

@@ -1,0 +1,6 @@
+<p>Le Roi, qui aurait bien voulu préserver son enfant adorée du malheur,</p>
+
+<ul><li onclick = "ModifieEtat('10', '6'); EnvoieChoix('C3O1');">ordonna que tous les fuseaux fussent brûlés dans le royaume.</li>
+    <li onclick = "ModifieEtat('11', '7'); EnvoieChoix('C3O2');", >confia l'enfant à la Fée des Lilas afin de la cacher dans la forêt.</li>
+    <li onclick = "ModifieEtat('12', '9'); EnvoieChoix('C3O3');">décida de surveiller de près la Princesse le jour de ses seize ans. </li>
+</ul>

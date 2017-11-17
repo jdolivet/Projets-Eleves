@@ -1,0 +1,3 @@
+<p>La Fée toucha de sa baguette tous ceux qui étaient dans ce Château. Dès qu'elle les eut touchés, le Roi et la Reine s'endormirent, pour ne se réveiller qu'au même temps que la Princesse. Et avec eux, toute la Cour. Les chevaux s'endormirent dans leurs écuries, les chiens dans la cour, les pigeons sur le toit, les mouches contre les murs. Même le feu qui brûlait dans l'âtre s'endormit et le rôti cessa de rôtir. Et le vent cessa de souffler. Nulle feuille ne bougea plus sur les arbres devant le château. Tout autour du palais, une haie d'épines se mit à pousser, qui chaque jour devint plus haute et plus touffue. Bientôt, elle cerna complètement le Château. </p>
+<ul><li class = "boutonProchain" onclick = "ModifieEtat('24', 'A');"> Continuer </li>
+</ul>

@@ -1,0 +1,4 @@
+<p>Ce terrible don fit frémir toute la compagnie. Dans ce moment la Fée des Lilas, qui n’avait pas encore fait son don à la Princesse, dit tout haut ces paroles:</p>
+<p>— Rassurez-vous, Roi et Reine, votre fille n'en mourra pas; il est vrai que je n'ai pas assez de puissance pour défaire entièrement ce que mon ancienne a fait dans sa rage. La Princesse se percera la main d'un fuseau; mais au lieu d'en mourir, elle tombera seulement dans un profond sommeil qui durera cent ans, au bout desquels le fils d'un Roi viendra la réveiller.</p>
+<ul><li class = "boutonProchain" onclick = "ModifieEtat('21', '8');"> Continuer </li>
+</ul>

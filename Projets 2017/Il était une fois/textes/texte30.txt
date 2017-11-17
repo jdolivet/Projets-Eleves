@@ -1,0 +1,4 @@
+<p>Le Cuisinier avait l’âme bonne. Lorsqu’il vit ces deux belles pommes d’or, il en eut compassion et les donna à sa femme pour les cacher ; à leur place, il accommoda deux chevreaux de vingt façons. Quand le Roi arriva, la reine se fit un plaisir d’envoyer quérir les plats et, voyant qu’il mangeait de grand appétit, elle lui dit :</p>
+<p>— Mange, c’est du tien que tu manges. </p>
+<ul><li class = "boutonProchain" onclick = "ModifieEtat('31', 'J');"> Continuer </li>
+</ul>

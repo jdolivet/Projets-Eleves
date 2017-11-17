@@ -1,0 +1,7 @@
+<p>Au bout de quinze ou seize ans, le Roi et la Reine étant allés à une de leurs Maisons de plaisance, il arriva que la jeune Princesse courant un jour dans le Château, et montant de chambre en chambre, alla jusqu'au haut d'un donjon dans un petit galetas, où une bonne Vieille était seule à filer sa quenouille.</p>
+<p>— Bonjour, grand-mère, dit la jeune fille. Que fais-tu là ?</p>
+<p>— Je file, dit la vieille en branlant la tête.</p>
+<p>— Qu'est-ce donc que cette chose que tu fais bondir si joyeusement, demanda la jeune fille.</p>
+<p>Elle n'eut pas plus tôt pris le fuseau, que comme elle était fort vive, un peu étourdie, et que d'ailleurs l'Arrêt des Fées l'ordonnait ainsi, elle s'en perça la main, et tomba évanouie. </p>
+<ul><li class = "boutonProchain" onclick = "ModifieEtat('22', '9');"> Continuer </li>
+</ul>

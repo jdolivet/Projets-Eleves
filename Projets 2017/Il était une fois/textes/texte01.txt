@@ -1,0 +1,6 @@
+<p>Ils allèrent à tous les lieux saints du monde, mais en vain. On conseilla alors à la Reine</p>
+
+<ul><li onclick = "ModifieEtat('03', '0')">la prière</li>
+    <li onclick = "ModifieEtat('05', '1')">d’aller prendre les eaux à l’étranger</li>
+</ul>
+ 

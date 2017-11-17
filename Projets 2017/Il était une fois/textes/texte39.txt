@@ -1,0 +1,7 @@
+<p>Quelque temps après le Roi alla faire la guerre à l'Empereur Cantalabutte son voisin. Il laissa la Régence du Royaume à la Reine sa mère, et lui recommanda fort sa femme et ses enfants. Aussitôt le Roi parti, elle dit à son Maître d'Hôtel :</p>
+<p>— Je veux manger demain à mon dîner la petite Aurore et le petit Jour.</p>
+<p>— Ah! Madame, dit le Maître d'Hôtel.</p>
+<p>— Je le veux, dit la Reine (et elle le dit d'un ton d'Ogresse qui a envie de manger de la chair fraîche), et je la veux manger à la Sauce-robert.</p>
+<ul><li onclick = "ModifieEtat('40', 'Q'); EnvoieChoix('CCO1');">Le Maître d'Hôtel, pris de pitié, décida de tromper la Reine</li>
+    <li onclick = "ModifieEtat('42', 'Q'); EnvoieChoix('CCO2'); EnvoieChoix('Fin7');">Ce pauvre homme voyant bien qu'il ne fallait pas se jouer à une Ogresse, prit son grand couteau, et lui obéit. </li>
+</ul>

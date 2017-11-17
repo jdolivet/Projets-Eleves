@@ -1,0 +1,4 @@
+<p>Un jour que la Reine était au bain, une Grenouille bondit hors de l'eau et lui dit :</p>
+<p>— Ton voeu sera exaucé. Avant qu'une année ne soit passée, tu mettras une fillette au monde.</p>
+<ul><li class = "boutonProchain" onclick = "ModifieEtat('06', '2');"> Continuer </li>
+</ul>

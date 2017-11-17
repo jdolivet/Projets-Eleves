@@ -1,0 +1,5 @@
+﻿<p>Le Roi s’en retourna ensuite à son palais, où il ne tarda pas à oublier toute cette aventure. Neuf mois après, la jeune fille accoucha de deux jumeaux, un garçon et une fille. Ils furent élevés par la Fée des Lilas, qui les mit au sein de leur mère. Une fois, comme ils eurent envie de téter et qu’ils ne trouvèrent pas les bouts des seins, ils saisirent le doigt et le sucèrent tant qu’ils en tirèrent l’écharde du fuseau.</p>
+<p>Leur mère parut sortir d’un profond sommeil. Cependant elle ne savait pas ce qui lui était arrivé. </p>
+<p></p>
+<ul><li class = "boutonProchain" onclick = "ModifieEtat('28', 'G');"> Continuer </li>
+</ul>

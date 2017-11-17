@@ -1,0 +1,3 @@
+<p>Le Maître d'Hôtel alla dans la basse-cour couper la gorge à un petit agneau, et il lui fit une si bonne sauce que sa Maîtresse l'assura qu'elle n'avait jamais rien mangé de si bon. Il avait emporté en même temps la petite Aurore et le petit Jour, et les avait donnés à sa femme pour la cacher dans le logement qu'elle avait au fond de la basse-cour. </p>
+<ul><li class = "boutonProchain" onclick = "ModifieEtat('41', 'R'); EnvoieChoix('Fin6');"> Continuer </li>
+</ul>

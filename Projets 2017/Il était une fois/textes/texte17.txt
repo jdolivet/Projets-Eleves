@@ -1,0 +1,4 @@
+<p>Le Roi arriva finalement à la chambre où la Princesse était comme enchantée. On eût dit d'un Ange, tant elle était belle; car son évanouissement n'avait pas ôté les couleurs vives de son teint: ses joues étaient incarnates, et ses lèvres comme du corail; elle avait seulement les yeux fermés, mais on l'entendait respirer doucement, ce qui faisait voir qu'elle n'était pas morte. Au premier coup d’œil, il crut qu’elle dormait et il l’appela. Comme il ne put la réveiller, quoi qu’il fît,</p>
+<ul><li onclick = "ModifieEtat('27', 'F'); EnvoieChoix('C6O1');">épris de sa beauté, le Roi cueillit d'elle les fruits de l'amour. </li>
+    <li onclick = "ModifieEtat('18', '9'); EnvoieChoix('C6O2'); EnvoieChoix('Fin2');">il quitta le Château, fort désolé. </li>
+</ul>

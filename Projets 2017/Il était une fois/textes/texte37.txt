@@ -1,0 +1,3 @@
+<p>Les deux époux furent couronnés dans la Chapelle du Château. Le Prince Chéri et la Belle au Bois Dormant eurent beaucoup d'enfants. Ils furent des souverains bons et généreux, des parents justes et doux, et vécurent heureux jusqu'à leur mort.</p>
+<ul><li class = "boutonProchain" onclick = "location.href='fin.php';" type="button"> Continuer </li>
+</ul>

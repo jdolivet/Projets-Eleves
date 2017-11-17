@@ -1,0 +1,4 @@
+<p>Le Roi et la Reine, après avoir baisé leur chère enfant, sortirent du Château. Après quoi il fermèrent les portes et, à cause d’une si grande perte, afin d’oublier à tout jamais leur infortune, ils abandonnèrent pour toujours ce Palais.</p>
+<p>Il crût dans un quart d'heure tout autour du parc une si grande quantité de grands arbres et de petits, de ronces et d'épines entrelacées les unes dans les autres, que bête ni homme n'y aurait pu passer. On ne douta point que la Fée n'eût encore fait là un tour de son métier. </p>
+<ul><li class = "boutonProchain" onclick = "ModifieEtat('25', 'A');"> Continuer </li>
+</ul>

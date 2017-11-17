@@ -1,0 +1,4 @@
+<p>La prédiction de la Grenouille se réalisa et la Reine mit au monde une fille. Le Roi ordonna un grand festin en l’honneur de la petite Princesse. Il fit inviter non seulement les siens, mais aussi le Prince Charmant, à qui on avait promis la main de la Princesse en mariage, et les Fées, afin que chacune d'elles lui faisant un don, comme c'était la coutume des Fées en ce temps-là, la Princesse eût par ce moyen toutes les perfections imaginables. Il s’en trouva treize dans le Pays, cependant le Roi ne possédait que douze couverts d’or massif.</p>
+<ul><li onclick = "ModifieEtat('19', '3'); EnvoieChoix('C2O1');">Il décida alors que l’une des Fées devrait rester chez elle. </li>
+    <li onclick = "ModifieEtat('07', '3'); EnvoieChoix('C2O2');">Il invita néanmoins toutes les Fées.</li>
+</ul>

@@ -1,0 +1,4 @@
+<p>Le Roi fit publier aussitôt un Edit, par lequel il défendait à toutes personnes de filer au fuseau, ni d'avoir des fuseaux chez soi sur peine de la vie. Cependant, les bonnes femmes du Pays, qui dépendaient du filage de la laine pour leur subsistance, furent révoltées par le despotisme du monarque. La foule enragée assaillit le Château et le Roi et la Reine furent guillotinés, seule la Princesse fut épargnée.</p> 
+<p>La Fée des Lilas la prit sous sa protection et l'éleva comme une paysanne. Le jour de sa seixième année étant venu, la Fée mena la jeune fille au Château pour qu'elle connût son origine véritable. La Princesse se promena dans le Château désert, visitant les salles et les chambres à sa fantaisie. Finalement, elle entra dans une vieille tour. </p>
+<ul><li class = "boutonProchain" onclick = "ModifieEtat('13', '8');"> Continuer </li>
+</ul>

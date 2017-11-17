@@ -1,0 +1,5 @@
+<p>Après les cérémonies du Baptême, les Fées commencèrent à faire leurs dons à la Princesse. La plus jeune lui donna pour don qu'elle serait la plus belle personne du monde, celle d'après qu'elle aurait de l'esprit comme un Ange, la troisième qu'elle aurait une grâce admirable à tout ce qu'elle ferait, et ainsi jusqu’à la onzième. Mais comme la dernière s’apprétait à parler, on vit entrer la vieille Fée qu'on n'avait point priée. Sans saluer ni regarder personne, la Fée Carabosse (car c’était son nom) prononça d’une voix puissante :</p>
+<p>— La fille du Roi, dans sa seizième année, se percera la main d'un fuseau, et en mourra.</p>
+<p>Puis elle quitta la salle. </p>
+<ul><li class = "boutonProchain" onclick = "ModifieEtat('20', '4');"> Continuer </li>
+</ul>

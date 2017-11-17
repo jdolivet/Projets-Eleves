@@ -1,0 +1,5 @@
+<p>Une fois l'épreuve des ronces passée, dans la plus haute tour, notre valeureux Prince retrouve sa Princesse. Ses cheveux sont blonds comme les blés, ses lèvres sont du plus éclatant des roses, hélas, à tout jamais, elle repose. Il se penche sur elle et lui donne un baiser. Alors, la Belle au Bois Dormant s'éveille, ouvre les yeux et le regarde en souriant.</p>
+<p id = "etoile">***</p> 
+<p>Le mariage du Prince Charmant et de la Belle au Bois Dormant fut célébré avec un faste exceptionnel. Et ils vécurent heureux jusqu'à leur mort. </p>
+<ul><li class = "boutonProchain" onclick = "location.href='fin.php';" type="button"> Continuer </li>
+</ul>

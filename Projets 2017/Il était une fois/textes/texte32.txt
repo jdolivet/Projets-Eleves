@@ -1,0 +1,6 @@
+<p>Le Roi Fortuné accourut. Il ordonna de jeter sa femme dans le bûcher allumé pour la Princesse. La femme du Cuisinier amena les enfants à leur père. Celui-ci sourit à tous les trois, y compris la mère. Lorsqu'il eut appris que le Cuisinier avait sauvé la vie à ses enfants, le Roi lui donna une grosse charge, le nomma gentilhomme de sa chambre et prit la Princesse pour femme. Elle jouit d’une longue vie avec son époux et ses enfants, reconnaissant que</p>
+<p id = "morale"><br>À qui a de la chance
+<br>Le bien vient même en dormant.
+</p>
+<ul><li class = "boutonProchain" onclick = "location.href='fin.php';" type="button"> Continuer </li>
+</ul>

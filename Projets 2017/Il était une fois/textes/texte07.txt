@@ -1,0 +1,5 @@
+<p>Après les cérémonies du Baptême toute la compagnie revint au Palais du Roi, où il y avait un grand banquet pour les Fées. On mit devant chacune d'elles un couvert magnifique, mais lorsque la treizième Fée vint se mettre à table, il n'y eut pas moyen de lui donner un étui d'or massif.</p>
+<p>La Fée Carabosse (car c’était son nom) crut qu'on la méprisait. Cependant les Fées commencèrent à faire leurs dons à la Princesse, le rang de la vieille Fée étant venu, elle dit :</p>
+<p>— Ma volonté est telle qu'à l'aube de ses seize ans, la Princesse se percera la main d'un fuseau, et en mourra.</p>
+<ul><li class = "boutonProchain" onclick = "ModifieEtat('08', '4');"> Continuer </li>
+</ul>

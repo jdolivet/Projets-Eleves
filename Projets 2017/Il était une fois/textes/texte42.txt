@@ -1,0 +1,7 @@
+<p>L'Ogresse déclara qu'elle n'avait jamais rien mangé de si bon. Elle était bien contente de sa cruauté, et se préparait à dire au Roi, à son retour, que les loups enragés avaient mangé ses deux enfants. Un soir cette méchante Reine dit au Maître d'Hôtel:</p>
+<p>— Je veux manger la Reine à la même sauce que ses enfants.</p>
+<p>Il prit la résolution, pour sauver sa vie, de couper la gorge à la Reine, et monta dans sa chambre le poignard à la main. Il ne voulut pourtant point la surprendre, et il lui dit avec beaucoup de respect l'ordre qu'il avait reçu de la Reine-Mère.</p>
+<p>— Faites votre devoir, lui dit-elle, en lui tendant le col; exécutez l'ordre qu'on vous a donné; j'irai revoir mes enfants, mes pauvres enfants que j'ai tant aimés.</p>
+<p>Et ce fut la fin de la Belle au Bois Dormant.</p>
+<ul><li class = "boutonProchain" onclick = "location.href='fin.php';" type="button"> Continuer </li>
+</ul>

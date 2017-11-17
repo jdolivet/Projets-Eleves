@@ -1,0 +1,3 @@
+﻿<p>Après un certain temps, il arriva qu’un Roi étant à la chasse, un faucon s’échappa et s’envola sur la fenêtre du Château. Pour aller le réclamer, le Roi brava la muraille d'épines. </p>
+<ul><li class = "boutonProchain" onclick = "Labyrinthe('2');"> Continuer </li>
+</ul>

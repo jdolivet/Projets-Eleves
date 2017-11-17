@@ -1,0 +1,7 @@
+﻿<p>Elle escalada l'étroit escalier en colimaçon et parvint dans un petit galetas, où une bonne Vieille était seule à filer sa quenouille.</p> 
+<p>— Que faites-vous là, ma bonne femme ? dit la Princesse.</p>
+<p>— Je file, ma belle enfant, lui répondit la vieille qui ne la connaissait pas.</p>
+<p>— Ah! que cela est joli, reprit la Princesse, comment faites-vous ? donnez-moi que je voie si j'en ferais bien autant.</p>
+<p>Elle n'eut pas plus tôt pris le fuseau, que comme elle était fort vive, un peu étourdie, et que d'ailleurs l'Arrêt des Fées l'ordonnait ainsi, elle s'en perça la main, et tomba évanouie. </p>
+<ul><li class = "boutonProchain" onclick = "ModifieEtat('14', 'A');"> Continuer </li>
+</ul>

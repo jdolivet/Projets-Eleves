@@ -1,0 +1,6 @@
+<p>Lorsque la Princesse fut arrivée, la Reine fit allumer, dans la cour de son Palais, un grand bûcher, et y jetât l’infortunée. Le Roi vit ce spectacle et voulut savoir toute l’affaire. Il demanda ce qu’étaient devenus ses enfants : sa femme, en lui reprochant sa trahison, lui apprit comment elle l’avait attrapé.</p>
+<p>À ces mots, le malheureux Roi, en proie au désespoir, se mit à dire :</p>
+<p>— Ainsi, j’ai été moi-même le loup de mes agneaux ! Oh ! Turque renégate ! quelle chienne d’idée tu as eue là !</p>
+<p>Et la soif de vengeance de la Reine fut enfin assouvie par la désolation du Roi.</p>
+<ul><li class = "boutonProchain" onclick = "location.href='fin.php';" type="button"> Continuer </li>
+</ul>

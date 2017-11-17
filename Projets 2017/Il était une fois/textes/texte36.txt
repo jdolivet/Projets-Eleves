@@ -1,0 +1,6 @@
+<p>Dans la plus haute tour, le Prince Chéri trouva une jeune Princesse dont l'éclat resplendissant avait quelque chose de lumineux et de divin. Il se mit à genoux auprès d'elle. Alors comme la fin de l'enchantement était venue, la Princesse s'éveilla.</p>
+<p>— Est-ce vous, mon Prince? lui dit-elle, vous vous êtes bien fait attendre.</p>
+<p>Le Prince ne savait comment lui témoigner sa joie et sa reconnaissance. Ses discours furent mal rangés, ils en plurent davantage; peu d'éloquence, beaucoup d'amour. Les jeunes amoureux se marrièrent le jour-même et établirent leur résidence</p>
+<ul><li onclick = "ModifieEtat('37', 'N'); EnvoieChoix('CBO1'); EnvoieChoix('Fin5');">au Château de la Princesse. </li>
+    <li onclick = "ModifieEtat('38', 'O'); EnvoieChoix('CBO2');">dans le Royaume du Prince. </li>
+</ul>

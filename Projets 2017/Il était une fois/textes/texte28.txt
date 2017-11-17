@@ -1,0 +1,3 @@
+<p>Or, un jour, le Roi se souvint d’elle et, sous prétexte d’une partie de chasse, vint au Château. Il la trouva réveillée avec ses deux charmants coucous : il en eut une joie folle. Il révéla à la jeune fille qui il était (il se nommait Roi Fortuné) et de quelle façon les choses s’étaient passées. Tous les deux se jurèrent alors un amour éternel. Le Roi resta quelques jours avec elle, puis il la quitta en lui promettant de revenir et de la tirer de là. </p>
+<ul><li class = "boutonProchain" onclick = "ModifieEtat('29', 'H');"> Continuer </li>
+</ul>

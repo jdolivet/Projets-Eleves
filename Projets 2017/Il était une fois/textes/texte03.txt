@@ -1,0 +1,5 @@
+<p>Voeux, prières, menues dévotions, tout fut mis en oeuvre, et rien n'y faisait. 
+On conseilla alors à la Reine</p>
+
+<ul><li onclick = "ModifieEtat('05', '1')">d’aller prendre les eaux à l’étranger</li>
+</ul>

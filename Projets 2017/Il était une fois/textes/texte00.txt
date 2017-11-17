@@ -1,0 +1,7 @@
+﻿<p>Il était une fois un Roi et une Reine, qui étaient si fâchés de n'avoir point
+d'enfants, si fâchés qu'on ne saurait dire. Pour y remédier, on conseilla à la Reine</p>
+
+<ul><li onclick = "ModifieEtat('01', '0'); EnvoieChoix('C1O1');">un pèlerinage</li>
+    <li onclick = "ModifieEtat('02', '0'); EnvoieChoix('C1O2');">la prière </li>
+    <li onclick = "ModifieEtat('05', '1'); EnvoieChoix('C1O3');">d’aller prendre les eaux à l’étranger</li>
+</ul>

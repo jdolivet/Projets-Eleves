@@ -1,0 +1,6 @@
+<p>Quand le Roi arriva, la Reine se fit un plaisir d’envoyer quérir les plats et, voyant qu’il mangeait de grand appétit, elle lui chantonna :</p>
+<p>— Mange, c’est du tien que tu manges.</p>
+<p>— Je le sais, parbleu ! que je mange le mien, puisque tu n’as rien apporté dans cette maison ! répondit le Roi, irrité par cette antienne.</p>
+<p>Et, se levant en fureur, il s’en fut à une villa peu éloignée pour calmer sa colère. Cela fit que le ressentiment de la Reine ne fut pas entièrement assouvi. Elle ordonna de faire venir la Princesse sous prétexte que le roi désirait la voir. Celle-ci accourut dans l’espoir de trouver la lumière de sa vie et ne se doutant pas que c’était le feu qui l’attendait. </p>
+<ul><li class = "boutonProchain" onclick = "ModifieEtat('34', 'J'); EnvoieChoix('Fin4');"> Continuer </li>
+</ul>

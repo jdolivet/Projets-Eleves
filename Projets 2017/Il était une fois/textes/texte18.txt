@@ -1,0 +1,3 @@
+<p>Ainsi, les années passèrent. Bientôt, la haie d'épines cerna complètement le Château, jusqu'à ce qu'on n'en vît plus rien, même pas le drapeau sur le toit. L'histoire de la Belle au Bois Dormant devint une rumeur, puis une légende, puis un conte; enfin on n'y crut plus du tout. Pourtant, en haut de sa tour, la Princesse sommeille toujours, attendant son Prince Charmant. </p>
+<ul><li class = "boutonProchain" onclick = "location.href='fin.php';" type="button"> Continuer </li>
+</ul>

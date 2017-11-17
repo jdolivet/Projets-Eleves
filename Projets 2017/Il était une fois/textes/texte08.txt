@@ -1,0 +1,5 @@
+<p>La Fée des Lilas, qui n'avait pas encore formé son voeu, s'avança alors. Et comme elle pouvait, par son don, rendre le mauvais sort moins dangereux, elle dit :</p> 
+<p>— Rassurez-vous, Roi et Reine, ce ne sera pas une mort véritable; la Princesse tombera seulement dans un profond sommeil, duquel le fils d'un Roi viendra la réveiller.
+</p>
+<ul><li class = "boutonProchain" onclick = "ModifieEtat('09', '5');"> Continuer </li>
+</ul>
