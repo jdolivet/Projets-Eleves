@@ -6,3 +6,5 @@ Projet réalisé par :
 	
   
 Remarque : utilise les bibliothèques pygame et pytmx
+
+Dépôt GitHub original : https://github.com/TheodoroADS/Coding-school-project
