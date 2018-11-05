@@ -1,0 +1,28 @@
+Instructions Mastermind : 
+
+Option l ordinateur devine :
+
+- Choisissez les couleurs qui constitueront votre combinaison. 
+
+La combinaison est composee 5 couleurs maximum. Vous pouvez choisir plusieurs fois une la meme couleur mais aussi aucune fois une couleur 
+
+- Apres avoir choisi la combinaison, l ordinateur essaiera de la trouver en proposant des combinaisons
+
+- Vous devrez indiquer a l ordinateur si les couleurs sont bien placees ou pas dans les cadrans prevus a cet effet 
+
+- Une fois cela fait l ordinateur propose de nouveau une combinaison
+
+- L ordinateur possede 10 tentatives pour dechiffrer la combinaison, sinon la partie est perdue
+
+
+Le joueur devine : 
+
+- Vous devez tenter de dechiffrer la combinaison que l ordinateur a choisi. Elle peut contenir plusieurs fois la meme couleur ou aussi aucune fois une couleur
+
+- Vous cliquerez sur les couleurs afin de proposer votre combinaison. L ordre de choix des couleurs correspondra a l ordre propose de la combinaison
+
+Exemple : si vous cliquez sur la couleur bleue, puis jaune, puis orange, puis verte, puis orange, la combinaison que vous proposez est : bleu-jaune-orange-vert-orange
+
+- L ordinateur vous indiquera le nombre de couleurs bien placees ou pas
+
+- Vous possedez de maximum 10 tentatives pour dechiffrer la combinaison que l ordinateur a choisi
