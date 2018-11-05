@@ -17,10 +17,10 @@ Projets des élèves d'ISN
 
 2016
 
-	 AILF (Chatbot)
+	 * AILF (Chatbot)
 	 
-	 Akenator
+	 * Akenator
 
-	 Jeu des allumettes
+	 * Jeu des allumettes
 
 
