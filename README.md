@@ -5,7 +5,7 @@ Projets des élèves d'ISN
 
 2018
 
-	 * Cham Revenge
+	 - Cham Revenge
 
 	 * Jeu de plateforme
 	 
