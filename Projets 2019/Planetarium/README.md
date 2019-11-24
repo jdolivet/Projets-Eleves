@@ -7,4 +7,4 @@ Projet réalisé par :
   	Luka de Figueiredo
 	
   
-Remarque : utilise les bibliothèques pygame, pytmx et pytweening
+Remarque : Certaines fonctions ne fonctionnent que sur windows : os.startfile() et root.iconbitmap()
