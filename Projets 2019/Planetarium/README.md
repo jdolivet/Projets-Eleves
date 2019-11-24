@@ -4,7 +4,7 @@ Projet réalisé par :
 	
 	Martin Chardenet
   
-  Luka de Figueiredo
+  	Luka de Figueiredo
 	
   
 Remarque : utilise les bibliothèques pygame, pytmx et pytweening
