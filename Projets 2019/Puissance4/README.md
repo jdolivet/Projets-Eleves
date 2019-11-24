@@ -6,3 +6,4 @@ Projet réalisé par :
   
     Matteo Imparato
   
+Remarques : utilise la bibliothèque numpy
