@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+		<title>My first three.js app</title>
+		<style>
+			body { margin: 0; }
+			canvas { display: block; }
+		</style>
+    </head>
+    <body>
+        <script type="module">
+            import * as THREE from 'https://unpkg.com/three@0.121.1/build/three.module.js';
+            //import { GLTFLoader } from './script_modules/GLTFLoader.js';
+            
+            //const loader = new GLTFLoader();
+
+            //Defines if dev mode is on or not
+            var dev_mode = false;
+
+            //Map array
+            var map = [
+                ["o","o","o","o","o","o","o"],
+                ["o","i","i","i","i","i","o"],
+                ["o","i","i","i","i","i","o"],
+                ["o","i","i","o","i","i","o"],
+                ["o","i","i","o","i","i","o"],
+                ["o","i","i","o","i","i","o"],
+                ["o","i","i","o","i","i","o"],
+                ["o","i","i","o","i","i","o"],
+                ["o","i","i","o","i","i","o"],
+                ["o","i","i","i","i","i","o"],
+                ["o","i","i","p","i","i","o"],
+                ["o","o","o","o","o","o","o"]
+            ];
+
+            //Defining array that will contain pressed keys information
+            var keys = {
+                w: false,
+                a: false,
+                s: false,
+                d: false
+            };
+
+            //Defining main body's vars main var
+            var pacman;
+            var plain;
+            var walls_array = [];
+
+            //Defining bodies sizes
+            var wall_size = 1;
+            var half_wall_size = wall_size/2;
+            var pacman_size = 0.6;
+            var half_pacman_size = pacman_size/2;
+            
+            //Creating scene and camera vars
+            var scene = new THREE.Scene();
+            var camera = new THREE.PerspectiveCamera( 55, window.innerWidth / window.innerHeight, 0.1, 1000 );
+            var camera_distance = 1.2;
+            var camera_height = 1.3;
+
+            //Pacman rotation and movement values variables
+            var stop = 1;
+            var DEGTORAD = 0.01745327;
+            var velocity = 0.0;
+            var speed = 0.0;
+            var speed_add = 0.05;
+            var rotation_add = 0.08;
+
+            //Camera animations and follow necessary vars
+            var time = 0;
+            var newPosition = new THREE.Vector3();
+            var matrix = new THREE.Matrix4();
+            var temp = new THREE.Vector3;
+            var dir = new THREE.Vector3;
+            var a = new THREE.Vector3;
+            var b = new THREE.Vector3;
+
+            //Adding scene WebGL renderer and adding it to html 
+            var renderer = new THREE.WebGLRenderer();
+            renderer.setSize( window.innerWidth, window.innerHeight );
+            document.body.appendChild( renderer.domElement );
+
+            //Creating plain mesh
+            var plain_texture = new THREE.TextureLoader().load("./game_textures/wood-floor-texture-3.jpg");
+            plain_texture.wrapS = THREE.RepeatWrapping;
+            plain_texture.wrapT = THREE.RepeatWrapping;
+            plain_texture.repeat.set( 1000, 1000 );
+            var plain_geometry = new THREE.PlaneGeometry(2000, 2000, 8, 8);
+            var plain_material = new THREE.MeshBasicMaterial( {map: plain_texture, side: THREE.DoubleSide} );
+            plain = new THREE.Mesh( plain_geometry, plain_material );
+            
+            //Creating pacman mesh as well as the elements that will make the camera animate and follow
+            //the pacman
+            var goal = new THREE.Object3D;
+            var follow = new THREE.Object3D;
+            follow.position.z = -camera_distance;
+            var pacman_geometry = new THREE.SphereGeometry( 0.3, 30, 30 );
+            var pacman_material = new THREE.MeshBasicMaterial( { color: 0xffff00 } );
+            
+            //Creating wall mesh
+            var wall_geometry = new THREE.BoxGeometry();
+			var wall_material = new THREE.MeshBasicMaterial( { color: 0x707070 } );
+
+            //Adding bodies to the scene
+            scene.add(plain);
+
+
+            //Setting startup values for bodies 
+                //Plain initial values
+                plain.rotateX( - Math.PI / 2);
+
+            //Utils function (basic add on functions)
+            function between(x, min, max) {
+                return x >= min && x <= max;
+            }
+            
+            //Mesh loader, charges the 3D model files: *.glb, module does not work
+            /*function mesh_loader(mesh_type){
+                var mesh_result;
+                var mesh_paths = {
+                    wall: "concrete_wall.glb",
+                    pacman: "",
+                    fantom: "",
+                }
+                loader.load("./game_textures/" + mesh_paths[mesh_type], (gltf) => {
+                    mesh_result = gltf.scene.children[0];
+                }, undefined, (error) => {
+		            //Error changing 3D model
+		            console.error( 'An error happened', error );
+	            });
+                return mesh_result;
+            }*/
+
+            //Game functions
+            const create_map = () => map.forEach((object, x) => {
+                object.forEach((val, z) => {
+                    if(val === "o") {
+                        var wall_mesh = new THREE.Mesh( wall_geometry, wall_material );
+                        scene.add(wall_mesh);
+                        wall_mesh.position.x = x;
+                        wall_mesh.position.z = z;
+                        wall_mesh.position.y = 0.5;
+                        walls_array.push(wall_mesh);
+                    } else if(val === "p") {
+                        pacman = new THREE.Mesh( pacman_geometry, pacman_material );
+                        scene.add(pacman);
+                        pacman.position.x = x;
+                        pacman.position.z = z;
+                        pacman.position.y = 0.5;
+                        goal.add(camera);
+                        pacman.add(follow);
+                        camera.lookAt(pacman.position.x);
+                    }
+                });
+            });
+            
+            //Function that is called every every time one of the movement keys ("w","a","s","d") 
+            //are pressed
+            function update_pac_position(key_pressed) {
+                const old_position = {x: pacman.position.x, z: pacman.position.z};
+                var next_position = {x: 0, z: 0};
+
+                var speed = 0.0;
+
+                //Calculate and add speed to the body dislocation
+                if ( keys.w ) speed = speed_add;
+                else if ( keys.s ) speed = -speed_add;
+                
+                //Sets dislocation that the body will move
+                velocity += ( speed - velocity ) * 0.6;
+                
+                //Calculates how much must be added to each axis (X, Z) to move to the 
+                //correct coordinates depending on the body's rotation. 
+                //We use cos and sin functions to calculate coordinates using the trigonometric
+                //circle rules
+                next_position.x = pacman.position.x + (Math.sin(pacman.rotation.y)*velocity);
+
+                var cos_calc = Math.cos(pacman.rotation.y)*velocity;
+                if(pacman.rotation.z !== 0 || -0) {
+                    next_position.z = pacman.position.z - cos_calc;
+                } else {
+                    next_position.z = pacman.position.z + cos_calc;
+                }
+
+                //Getting coordinates of the extremities of pacman
+                var pacman_extremes = {
+                    x_plus: next_position.x + half_pacman_size,
+                    x_minus: next_position.x - half_pacman_size,
+                    z_plus: next_position.z + half_pacman_size,
+                    z_minus: next_position.z - half_pacman_size,
+                };
+
+                //Checks for collision between Pacman and walls to prevent Pacman to getting into it
+                //For this the some array prototype function is used so it returns true if at least
+                //one of the elements inside an array accomplishes the requisites asked
+                if(walls_array !== undefined && walls_array.length > 0) walls_array.some((wall_unit, i, array) => {
+                    //Getting the coordinates of the extremities of this respective wall
+                    var walls_extremes = {
+                        x_plus: wall_unit.position.x + half_wall_size,
+                        x_minus: wall_unit.position.x - half_wall_size,
+                        z_plus: wall_unit.position.z + half_wall_size,
+                        z_minus: wall_unit.position.z - half_wall_size,
+                    };
+                    console.log(pacman_extremes);
+                    //Verifying collision, by checking if the coordinates of the extremities of the pacman 
+                    //are inside the wall's interval (x wall's extremities, z wall's extremities)
+                    if(between(pacman_extremes.x_plus, walls_extremes.x_minus, walls_extremes.x_plus)
+                    || between(pacman_extremes.x_minus, walls_extremes.x_minus, walls_extremes.x_plus)) {
+                        //Checks if it really is this respective wall
+                        if(between(pacman_extremes.z_plus, walls_extremes.z_minus, walls_extremes.z_plus)
+                        || between(pacman_extremes.z_minus, walls_extremes.z_minus, walls_extremes.z_plus)) {
+                            
+                            next_position.x = pacman.position.x;
+                            return;
+                        }
+                    }
+                    
+                });
+                if(walls_array !== undefined && walls_array.length > 0) walls_array.some((wall_unit, i, array) => {
+                    //Getting the coordinates of the extremities of this respective wall
+                    var walls_extremes = {
+                        x_plus: wall_unit.position.x + half_wall_size,
+                        x_minus: wall_unit.position.x - half_wall_size,
+                        z_plus: wall_unit.position.z + half_wall_size,
+                        z_minus: wall_unit.position.z - half_wall_size,
+                    };
+                    console.log(pacman_extremes);
+                    //Verifying collision, by checking if the coordinates of the extremities of the pacman 
+                    //are inside the wall's interval (x wall's extremities, z wall's extremities)
+                    if(between(pacman_extremes.z_plus, walls_extremes.z_minus, walls_extremes.z_plus)
+                    || between(pacman_extremes.z_minus, walls_extremes.z_minus, walls_extremes.z_plus)) {
+                        //Checks if it really is this respective wall
+                        if(between(pacman_extremes.x_plus, walls_extremes.x_minus, walls_extremes.x_plus)
+                        || between(pacman_extremes.x_minus, walls_extremes.x_minus, walls_extremes.x_plus)) {
+                            next_position.z = pacman.position.z; 
+                            return;
+                        }
+                    }
+                });
+
+
+                pacman.position.x = next_position.x;
+                pacman.position.z = next_position.z;
+
+                //Changes body's rotation
+                if ( keys.a ) pacman.rotateY(rotation_add);
+                else if ( keys.d ) pacman.rotateY(-rotation_add);
+            }
+
+            function update_camera(){
+                a.lerp(pacman.position, 0.04);
+                b.copy(goal.position);
+  
+                dir.copy( a ).sub( b ).normalize();
+                const dis = a.distanceTo( b ) - camera_distance;
+                goal.position.addScaledVector( dir, dis );
+                goal.position.lerp(temp, 0.06);
+                temp.setFromMatrixPosition(follow.matrixWorld);
+                camera.position.y = camera_height;
+                camera.lookAt(pacman.position);
+            }
+
+            //Function that runs everything 
+            function animate() {
+                requestAnimationFrame( animate );
+
+                update_pac_position();
+                update_camera();
+
+            	renderer.render( scene, camera );
+            }
+
+            async function init(){
+                //Creates the map (await because it might take time so we wait for it)
+                //and then starting the game by clicking the animate function
+                await create_map();
+                animate();
+
+                //Add a listeners that will listen when key are pressed and un pressed
+                //When a key is pressed then the respective key value in the array wil be changed
+                //to true, else it will be set to false
+                document.body.addEventListener( 'keydown', function(e) {
+                    //Set's the key value to lowercase letter to prevent errors
+                    //when modifying the key value
+                    const key = e.code.replace('Key', '').toLowerCase();
+                    if ( keys[ key ] !== undefined ) keys[ key ] = true;
+                });
+                document.body.addEventListener( 'keyup', function(e) {
+                    //Set's the key value to lowercase letter to prevent errors
+                    //when modifying the key value
+                    const key = e.code.replace('Key', '').toLowerCase();
+                    if ( keys[ key ] !== undefined ) keys[ key ] = false;
+                });
+            }
+
+            init();
+
+        </script>
+        <script src="./script_modules/cannon.min.js"></script>
+    </body>
+</html>
